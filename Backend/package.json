@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adrianbuenoo095/technical_challenge_WD#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.4",
     "express": "^4.18.2",
     "mongoose": "^8.1.2"

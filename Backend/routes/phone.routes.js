@@ -4,10 +4,7 @@ const phoneData = require("../data/phones.json")
 
 router.get("/", async (req, res, next) =>{
     try {
-        res.json({
-            message:"Welcome to our Api",
-            phoneData:phoneData
-        });
+        res.json(phoneData);
     }catch (error){
         next(error);
         res.status(500).send({error: "Failed to retrieve phones"})
